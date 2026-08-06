@@ -1,0 +1,16 @@
+<svg width="620" height="160" viewBox="0 0 620 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HPMN Hua Pu Power Supply</title>
+  <desc id="desc">HPMN logo with Chinese brand name Hua Pu Power Supply</desc>
+  <rect width="620" height="160" rx="8" fill="#FFFFFF"/>
+  <g fill="#E60012">
+    <path d="M34 38H70L52 122H16L34 38Z"/>
+    <path d="M78 38H114L105 80H143L152 38H188L170 122H134L143 80H105L96 122H60L78 38Z"/>
+    <path d="M188 61H255C277 61 290 73 286 93C282 112 266 122 242 122H201L194 154H158L178 61H188ZM210 87L207 100H241C248 100 252 98 253 94C254 89 250 87 243 87H210Z"/>
+    <path d="M298 61H333L351 92L382 61H418L405 122H371L378 91L353 122H339L328 91L321 122H285L298 61Z"/>
+    <path d="M431 61H466L484 92L515 61H551L538 122H504L511 91L486 122H472L461 91L454 122H418L431 61Z"/>
+  </g>
+  <circle cx="548" cy="41" r="11" stroke="#1D232B" stroke-width="3"/>
+  <path d="M544 48V35H550C554 35 556 37 556 40C556 42 555 44 552 45L557 48H553L549 45H548V48H544ZM548 42H550C552 42 553 41 553 40C553 39 552 38 550 38H548V42Z" fill="#1D232B"/>
+  <text x="270" y="70" fill="#1D232B" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="42" font-weight="800" letter-spacing="3">华普电源</text>
+  <text x="272" y="103" fill="#1D232B" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" letter-spacing="1.4">HUA PU POWER SUPPLY</text>
+</svg>

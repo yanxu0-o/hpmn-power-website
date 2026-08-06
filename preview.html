@@ -1,0 +1,1564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guangdong Huapu Intelligent Technology Co., Ltd. (HPMN) manufactures reliable constant voltage switching power supplies for global LED applications."
+    />
+    <title>HPMN Power | Guangdong Huapu Intelligent Technology Co., Ltd.</title>
+    <style>
+:root {
+  --red: #c91524;
+  --red-dark: #a80f1a;
+  --ink: #1d232b;
+  --graphite: #2f363f;
+  --muted: #69717c;
+  --line: #dfe3e8;
+  --panel: #f5f6f8;
+  --white: #ffffff;
+  --max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--white);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(var(--max), calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  padding: 0 32px;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.brand img {
+  width: 320px;
+  max-height: 64px;
+  height: auto;
+  object-fit: contain;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.main-nav a {
+  padding: 12px 14px;
+  color: var(--graphite);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-nav a:hover {
+  color: var(--red);
+}
+
+.lang-toggle {
+  margin-left: 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--graphite);
+  padding: 8px 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.lang-toggle:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.nav-toggle {
+  display: none;
+  border: 0;
+  background: transparent;
+  padding: 8px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 5px 0;
+  background: var(--ink);
+}
+
+.section {
+  padding: 88px 0;
+}
+
+.hero {
+  position: relative;
+  min-height: 680px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #141922;
+  color: var(--white);
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(15, 18, 24, 0.9), rgba(15, 18, 24, 0.5)),
+    linear-gradient(135deg, rgba(201, 21, 36, 0.35), transparent 42%),
+    url("./assets/images/industrial-power-placeholder.svg") center/cover no-repeat;
+}
+
+.hero-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) 380px;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-copy h1 {
+  max-width: 760px;
+  margin: 0 0 22px;
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: 1.04;
+}
+
+.hero-copy p {
+  max-width: 650px;
+  color: #d9dde3;
+  font-size: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.btn.primary {
+  color: var(--white);
+  background: var(--red);
+}
+
+.btn.primary:hover {
+  background: var(--red-dark);
+}
+
+.btn.secondary {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-panel {
+  background: linear-gradient(90deg, rgba(35, 41, 49, 0.92), rgba(90, 96, 105, 0.72));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0;
+  backdrop-filter: blur(10px);
+}
+
+.hero-panel div {
+  padding: 30px 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hero-panel div:last-child {
+  border-bottom: 0;
+}
+
+.hero-panel span,
+.hero-panel strong {
+  display: block;
+}
+
+.hero-panel span {
+  color: #c4cad3;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero-panel strong {
+  margin-top: 14px;
+  color: var(--white);
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.muted {
+  background: var(--panel);
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.metric-grid div {
+  min-height: 118px;
+  padding: 24px;
+  background: var(--white);
+}
+
+.metric-grid span {
+  display: block;
+  color: var(--red);
+  font-weight: 900;
+}
+
+.metric-grid strong {
+  display: block;
+  margin-top: 18px;
+  font-size: 18px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 72px;
+}
+
+h2 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.12;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.prose p,
+.section-head p,
+.contact-section p {
+  color: var(--muted);
+}
+
+.capability-grid,
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 44px;
+}
+
+.capability-grid article,
+.product-card,
+.solution-card,
+.download-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.capability-grid article {
+  position: relative;
+  padding: 28px;
+  border-top: 4px solid var(--red);
+}
+
+.value-head {
+  margin-top: 54px;
+}
+
+.value-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(201, 21, 36, 0.28);
+  border-radius: 6px;
+  background: #fff5f6;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.manufacturing-showcase {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 58px;
+  padding-top: 48px;
+  border-top: 1px solid var(--line);
+}
+
+.manufacturing-showcase p {
+  color: var(--muted);
+}
+
+.manufacturing-copy {
+  position: static;
+  max-width: 880px;
+}
+
+.factory-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.factory-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.factory-media {
+  background: #11151b;
+}
+
+.factory-media img,
+.factory-media video {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+
+.factory-media img,
+.factory-media video {
+  object-fit: cover;
+}
+
+.factory-media img[data-fit="contain"] {
+  object-fit: contain;
+}
+
+.factory-caption {
+  padding: 18px;
+}
+
+.factory-caption h3 {
+  margin-bottom: 6px;
+}
+
+.factory-caption p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.section-head {
+  max-width: 760px;
+}
+
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.filter-btn {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--graphite);
+  padding: 9px 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--white);
+}
+
+.product-card {
+  overflow: hidden;
+}
+
+.product-media {
+  display: grid;
+  place-items: center;
+  min-height: 210px;
+  background: #eef1f4;
+}
+
+.product-media img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.product-body {
+  padding: 24px;
+}
+
+.product-category {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.product-body p,
+.solution-card p,
+.download-card p {
+  color: var(--muted);
+}
+
+.spec-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.spec-list span {
+  padding: 6px 9px;
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--graphite);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.solution-list {
+  display: grid;
+  margin-top: 34px;
+  border-top: 1px solid var(--line);
+}
+
+.solution-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.solution-card h3 {
+  margin: 0;
+  color: var(--ink);
+}
+
+.download-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 34px;
+}
+
+.download-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  padding: 22px;
+}
+
+.download-type {
+  display: inline-flex;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.download-card a {
+  flex: 0 0 auto;
+  color: var(--red);
+  font-weight: 900;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 48%, #f2f4f6 48%, #f2f4f6 100%);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  gap: 70px;
+  align-items: start;
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.contact-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--graphite);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 12px 13px;
+  color: var(--ink);
+  font: inherit;
+}
+
+.site-footer {
+  padding: 34px 0;
+  background: #11151b;
+  color: #d9dde3;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-grid p {
+  margin: 6px 0 0;
+  color: #9fa6b1;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    padding: 0 20px;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .main-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 76px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px 20px 20px;
+    background: var(--white);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .main-nav.open {
+    display: flex;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 96px 0;
+  }
+
+  .hero-grid,
+  .two-col,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .metric-grid,
+  .capability-grid,
+  .product-grid,
+  .manufacturing-showcase,
+  .download-list {
+    grid-template-columns: 1fr;
+  }
+
+  .brand img {
+    width: 220px;
+    max-height: 54px;
+  }
+
+  .factory-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .solution-card {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .factory-media img,
+  .factory-media video {
+    height: 260px;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+  }
+}
+
+</style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="HPMN Power Home">
+        <img src="./assets/logo/hpmn-logo-official.png" alt="HPMN Hua Pu Power Supply logo" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#about" data-i18n="navAbout">About Us</a>
+        <a href="#products" data-i18n="navProducts">Products</a>
+        <a href="#solutions" data-i18n="navSolutions">Solutions</a>
+        <a href="#downloads" data-i18n="navDownloads">Downloads</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <button class="lang-toggle" type="button" data-lang-toggle>中文</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">Constant Voltage Switching Power Supplies</p>
+            <h1 data-i18n="heroTitle">Reliable LED power supply manufacturing for global projects.</h1>
+            <p data-i18n="heroText">
+              Guangdong Huapu Intelligent Technology Co., Ltd. builds HPMN / HPMN Power
+              constant voltage switching power supplies for LED lighting, signage,
+              cabinet lighting, and project-based applications.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#products" data-i18n="exploreProducts">Explore Products</a>
+              <a class="btn secondary" href="#contact" data-i18n="contactSales">Contact Sales</a>
+            </div>
+          </div>
+          <div class="hero-panel hero-specs" aria-label="Key product capabilities">
+            <div><span>Product Focus</span><strong>Constant Voltage LED Power</strong></div>
+            <div><span>Manufacturing</span><strong>OEM & ODM Capability</strong></div>
+            <div><span>Supply Model</span><strong>Global B2B Project Supply</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow" data-i18n="aboutEyebrow">About HPMN</p>
+            <h2 data-i18n="aboutTitle">Guangdong Huapu Intelligent Technology Co., Ltd.</h2>
+          </div>
+          <div class="prose">
+            <p data-i18n="aboutText1">
+              HPMN Power specializes in the R&D and manufacturing of constant voltage switching
+              power supplies for LED applications.
+            </p>
+            <p data-i18n="aboutText2">
+              Products are widely used in LED lighting, advertising signage, channel letters,
+              outdoor lighting projects, commercial displays and interior decoration projects.
+              We focus on product quality, reliability and long-term cooperation, providing
+              efficient manufacturing, fast technical support and flexible customization for
+              global distributors, OEM partners and project customers.
+            </p>
+          </div>
+        </div>
+        <div class="container section-head value-head">
+          <p class="eyebrow" data-i18n="whyEyebrow">Why Choose HPMN</p>
+          <h2 data-i18n="whyTitle">Built for LED power supply buyers, distributors, and OEM partners.</h2>
+        </div>
+        <div class="container capability-grid">
+          <article>
+            <span class="value-icon" aria-hidden="true">LED</span>
+            <h3 data-i18n="value1Title">LED Power Supply Specialist</h3>
+            <p data-i18n="value1Text">Reliable constant voltage switching power supplies for LED lighting, signage, industrial and commercial applications.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">OEM</span>
+            <h3 data-i18n="value2Title">OEM & ODM Manufacturing</h3>
+            <p data-i18n="value2Text">Custom branding, housing, packaging and electrical specifications available for global partners.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">B2B</span>
+            <h3 data-i18n="value3Title">Global B2B Supply</h3>
+            <p data-i18n="value3Text">Supporting distributors, wholesalers, contractors and OEM customers worldwide.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">QC</span>
+            <h3 data-i18n="value4Title">Quality Control</h3>
+            <p data-i18n="value4Text">Three-stage testing process: preliminary test, ATE integrated test, and aging test.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">STK</span>
+            <h3 data-i18n="value5Title">Warehouse-Based Supply</h3>
+            <p data-i18n="value5Text">Stock-based sales model with sufficient inventory capacity to support distributors, project orders and repeat purchasing needs.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">SUP</span>
+            <h3 data-i18n="value6Title">Fast Technical Support</h3>
+            <p data-i18n="value6Text">Responsive pre-sales and after-sales communication for model selection, project requirements and OEM customization.</p>
+          </article>
+        </div>
+        <div class="container manufacturing-showcase">
+          <div class="manufacturing-copy">
+            <p class="eyebrow" data-i18n="mfgEyebrow">Manufacturing Capability</p>
+            <h2 data-i18n="mfgTitle">Testing, manufacturing, warehousing, and automated potting capability.</h2>
+            <p data-i18n="mfgText">
+              HPMN promotes modern manufacturing with ATE testing, aging cabinets,
+              controlled production areas, automated potting equipment, and warehouse-based
+              stock support for responsive lead times.
+            </p>
+          </div>
+          <div class="factory-gallery" id="factoryGallery"></div>
+        </div>
+      </section>
+
+      <section id="products" class="section muted">
+        <div class="container section-head">
+          <p class="eyebrow" data-i18n="productsEyebrow">Product Center</p>
+          <h2 data-i18n="productsTitle">Constant voltage switching power supplies for LED projects.</h2>
+          <p data-i18n="productsText">Categories and product cards are generated from the current HPMN material library and can be expanded when new files are added.</p>
+        </div>
+        <div class="container category-filter" id="categoryFilter"></div>
+        <div class="container product-grid" id="productGrid"></div>
+      </section>
+
+      <section id="solutions" class="section">
+        <div class="container section-head">
+          <p class="eyebrow">Solutions</p>
+          <h2>Application-focused LED power supply solutions.</h2>
+          <p>Built for overseas customers in LED lighting, signage, cabinet lighting, commercial displays, and project contracting.</p>
+        </div>
+        <div class="container solution-list" id="solutionGrid"></div>
+      </section>
+
+      <section id="downloads" class="section muted">
+        <div class="container section-head">
+          <p class="eyebrow" data-i18n="downloadsEyebrow">Download Center</p>
+          <h2 data-i18n="downloadsTitle">Product catalogs and brochures.</h2>
+          <p data-i18n="downloadsText">Only HPMN product manuals are listed here for overseas customers.</p>
+        </div>
+        <div class="container download-list" id="downloadList"></div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+            <h2 data-i18n="contactTitle">Discuss your power supply requirement with HPMN.</h2>
+            <p data-i18n="contactText">
+              Send your product category, required voltage/current, quantity, destination market,
+              and application needs. The HPMN team can prepare a suitable recommendation.
+            </p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="name@company.com" />
+            </label>
+            <label>
+              Requirement
+              <textarea name="message" rows="5" placeholder="Tell us about your application"></textarea>
+            </label>
+            <a class="btn primary" href="mailto:sales@hpmn-power.com?subject=HPMN%20Power%20Inquiry">Send Inquiry</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Guangdong Huapu Intelligent Technology Co., Ltd.</strong>
+          <p>HPMN / HPMN Power / 华普电源</p>
+        </div>
+        <div>
+          <span>Constant voltage switching power supplies for LED applications.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module">
+const inventory = {
+  "sourceFolder": "HPMN-Website 2",
+  "images": 2884,
+  "pdfs": 60,
+  "officeFiles": 183,
+  "productSeries": 28
+};
+
+const products = [
+  {
+    "name": "AS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "AS",
+    "description": "Industrial enclosed power supply series for LED lighting and control equipment.",
+    "image": "./assets/images/products/as-1.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "BS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "BS",
+    "description": "Compact switching power supplies for commercial and industrial devices.",
+    "image": "./assets/images/products/bs-1.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "CHB Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHB",
+    "description": "Compact LED power driver series for cabinet and commercial lighting.",
+    "image": "./assets/images/products/chb-chb-100w.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "CHC Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHC",
+    "description": "Cabinet LED power supply series with multiple wattage options.",
+    "image": "./assets/images/products/chc-100w.png",
+    "specs": [
+      "9 material files"
+    ]
+  },
+  {
+    "name": "CHD Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHD",
+    "description": "Small-size LED driver series for space-limited lighting projects.",
+    "image": "./assets/images/products/chd-img_9161.jpg.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "CHG Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHG",
+    "description": "Cabinet lighting driver series for low-profile applications.",
+    "image": "./assets/images/products/chg-chg-100w-12v.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "CHP Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHP",
+    "description": "Slim LED power supply series for cabinet and furniture lighting systems.",
+    "image": "./assets/images/products/chp-chp-100w.jpg",
+    "specs": [
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "14 material files"
+    ]
+  },
+  {
+    "name": "CHP-B Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHP-B",
+    "description": "B-version slim cabinet power supply series for compact installations.",
+    "image": "./assets/images/products/chp-b-chp-06b-12.jpg",
+    "specs": [
+      "5 material files"
+    ]
+  },
+  {
+    "name": "CS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "CS",
+    "description": "Stable AC/DC power supply series covering mainstream 12V and 24V outputs.",
+    "image": "./assets/images/products/cs-cs100w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "CTG Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CTG",
+    "description": "LED driver series with broad wattage coverage for 12V and 24V projects.",
+    "image": "./assets/images/products/ctg-ctg100w.jpg",
+    "specs": [
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "24V"
+    ]
+  },
+  {
+    "name": "CTN Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CTN",
+    "description": "Thin LED power supply series for lighting and control applications.",
+    "image": "./assets/images/products/ctn-ctn100w.jpg",
+    "specs": [
+      "200W",
+      "200w",
+      "300W",
+      "300w",
+      "400W",
+      "400w",
+      "13 material files"
+    ]
+  },
+  {
+    "name": "ES Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "ES",
+    "description": "Economical enclosed switching power supplies for standard industrial loads.",
+    "image": "./assets/images/products/es-150w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "FBI Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "FBI",
+    "description": "Constant voltage LED power supply series for demanding installation environments.",
+    "image": "./assets/images/products/fbi-fbi-12v100w-1-.jpg.jpg",
+    "specs": [
+      "100w",
+      "150w",
+      "200w",
+      "300w",
+      "400w",
+      "60w",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "FSA Series Power Supply",
+    "category": "Outdoor Power Supplies",
+    "series": "FSA",
+    "description": "Waterproof power supply series for outdoor, signage, and wet-location projects.",
+    "image": "./assets/images/products/fsa-fsa-100w.jpg",
+    "specs": [
+      "400W",
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "500W",
+      "24V"
+    ]
+  },
+  {
+    "name": "FYG Series Power Supply",
+    "category": "Outdoor Power Supplies",
+    "series": "FYG",
+    "description": "Rainproof power supply series with multiple 400W model variants.",
+    "image": "./assets/images/products/fyg-fyg-12v400w-b-1.jpg",
+    "specs": [
+      "400W",
+      "100w",
+      "31 material files"
+    ]
+  },
+  {
+    "name": "HPC Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "HPC",
+    "description": "High power product line for 24V industrial power applications.",
+    "image": "./assets/images/products/hpc-img_8830.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "HPD Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "HPD",
+    "description": "High performance enclosed power supply series for industrial projects.",
+    "image": "./assets/images/products/hpd-hpd-100w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "9 material files"
+    ]
+  },
+  {
+    "name": "HPT Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "HPT",
+    "description": "24V project power supply series for LED applications.",
+    "image": "./assets/images/products/hpt-img_8963.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "LS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "LS",
+    "description": "HPMN enclosed switching power supplies for reliable constant voltage LED applications.",
+    "image": "./assets/images/products/ls-ls100w.jpg",
+    "specs": [
+      "400W",
+      "100W",
+      "200W",
+      "300W",
+      "60W",
+      "12V",
+      "30 material files"
+    ]
+  },
+  {
+    "name": "MS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "MS",
+    "description": "Industrial switching power supply series for reliable daily operation.",
+    "image": "./assets/images/products/ms-img_5412.jpg.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "9 material files"
+    ]
+  },
+  {
+    "name": "NS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "NS",
+    "description": "New-style switching power supply series for equipment and LED applications.",
+    "image": "./assets/images/products/ns-img_5277.jpg.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "400W",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "PTA Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTA",
+    "description": "General power supply series with 5V, 12V, 24V, and higher power models.",
+    "image": "./assets/images/products/pta-pta1000w.jpg",
+    "specs": [
+      "1000W",
+      "100W",
+      "120W",
+      "150W",
+      "18W",
+      "200W",
+      "29 material files"
+    ]
+  },
+  {
+    "name": "PTA-B Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTA-B",
+    "description": "Economy general power supply series for cost-sensitive projects.",
+    "image": "./assets/images/industrial-power-placeholder.svg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "PTG Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTG",
+    "description": "High-current general power supply series for project-based applications.",
+    "image": "./assets/images/products/ptg-ptg12v33a.jpg",
+    "specs": [
+      "1 material files"
+    ]
+  },
+  {
+    "name": "QS Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "QS",
+    "description": "Slim strip power supply series for cabinet, display, and compact LED installations.",
+    "image": "./assets/images/products/qs-qs18-12v24v.jpg",
+    "specs": [
+      "18W",
+      "24W",
+      "5 material files"
+    ]
+  },
+  {
+    "name": "TVA Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVA",
+    "description": "Smart dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tva-200w-2.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "TVB Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVB",
+    "description": "DALI dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tvb-200w-2.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "TVC Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVC",
+    "description": "0-10V dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tvc-200w-2.jpg.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  }
+];
+
+const solutions = [
+  {
+    "title": "LED Lighting & Signage",
+    "description": "Constant voltage power supplies for LED strips, illuminated signage, channel letters and display lighting."
+  },
+  {
+    "title": "Outdoor Power Projects",
+    "description": "FSA waterproof and FYG rainproof series for outdoor lighting and wet-location installation needs."
+  },
+  {
+    "title": "Cabinet & Commercial Lighting",
+    "description": "Slim QS, CH, CT, and cabinet driver series for compact lighting layouts with limited installation space."
+  },
+  {
+    "title": "OEM & Distribution Supply",
+    "description": "Custom branding, housing, packaging and warehouse-based supply for global B2B partners."
+  }
+];
+
+const downloads = [
+  {
+    "title": "2026HPMN Catalog",
+    "type": "Catalog / Brochure",
+    "description": "Catalog / Brochure from the current HPMN material folder.",
+    "url": "./public/downloads/hpmn-2026hpmn-catalog.pdf"
+  },
+  {
+    "title": "HPMN产品手册-电子版",
+    "type": "Catalog / Brochure",
+    "description": "Catalog / Brochure from the current HPMN material folder.",
+    "url": "./public/downloads/hpmn-asset.pdf"
+  }
+];
+
+const factoryImages = [
+  "./assets/images/factory/factory-img_0499.jpg.jpg",
+  "./assets/images/factory/factory-img_0529.jpg.jpg",
+  "./assets/images/factory/factory-img_0528.jpg.jpg",
+  "./assets/images/factory/factory-img_0526.jpg.jpg",
+  "./assets/images/factory/factory-img_0527.jpg.jpg",
+  "./assets/images/factory/factory-img_0532.jpg.jpg"
+];
+
+const factoryMedia = [
+  {
+    "title": "ATE Integrated Test System",
+    "description": "Comprehensive automatic testing equipment for output and reliability checks.",
+    "src": "./assets/images/factory/factory-ate-tester.png",
+    "type": "image"
+  },
+  {
+    "title": "Manufacturing Center",
+    "description": "HPMN manufacturing center with controlled production access.",
+    "src": "./assets/images/factory/factory-manufacturing-center.jpg",
+    "type": "image",
+    "position": "left center",
+    "fit": "cover"
+  },
+  {
+    "title": "Production Line",
+    "description": "Organized production line for constant voltage LED power supply manufacturing.",
+    "src": "./assets/images/factory/factory-img_0499.jpg.jpg",
+    "type": "image"
+  },
+  {
+    "title": "R&D Center",
+    "description": "Engineering and development area for LED power supply products.",
+    "src": "./assets/images/factory/factory-rd-center.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Aging Test Cabinets",
+    "description": "Batch aging and burn-in testing to support stable delivery quality.",
+    "src": "./assets/images/factory/factory-aging-cabinet.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Automated Test Equipment",
+    "description": "Automated equipment supports production testing and process control.",
+    "src": "./assets/images/factory/factory-img_0529.jpg.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Company Entrance",
+    "description": "Guangdong Huapu Intelligent Technology Co., Ltd. reception area.",
+    "src": "./assets/images/factory/factory-company-entrance.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Automatic Potting Equipment",
+    "description": "Automated glue potting equipment for protected LED power supply production.",
+    "src": "./public/videos/factory-auto-potting-equipment.mov",
+    "type": "video"
+  },
+  {
+    "title": "Warehouse Stock",
+    "description": "Warehouse-based sales with strong stock availability and responsive lead times.",
+    "src": "./assets/images/factory/factory-warehouse-stock.jpg",
+    "type": "image"
+  }
+];
+
+
+const navToggle = document.querySelector(".nav-toggle");
+const mainNav = document.querySelector(".main-nav");
+
+navToggle?.addEventListener("click", () => {
+  const isOpen = mainNav.classList.toggle("open");
+  navToggle.setAttribute("aria-expanded", String(isOpen));
+});
+
+mainNav?.addEventListener("click", () => {
+  mainNav.classList.remove("open");
+  navToggle?.setAttribute("aria-expanded", "false");
+});
+
+const categoryFilter = document.querySelector("#categoryFilter");
+const productGrid = document.querySelector("#productGrid");
+const solutionGrid = document.querySelector("#solutionGrid");
+const downloadList = document.querySelector("#downloadList");
+const factoryGallery = document.querySelector("#factoryGallery");
+const langToggle = document.querySelector("[data-lang-toggle]");
+
+const categories = ["All", ...new Set(products.map((product) => product.category))];
+let activeCategory = "All";
+
+function renderFilters() {
+  categoryFilter.innerHTML = categories
+    .map(
+      (category) =>
+        `<button class="filter-btn ${category === activeCategory ? "active" : ""}" type="button" data-category="${category}">${category}</button>`,
+    )
+    .join("");
+}
+
+function renderProducts() {
+  const visibleProducts =
+    activeCategory === "All" ? products : products.filter((product) => product.category === activeCategory);
+
+  productGrid.innerHTML = visibleProducts
+    .map(
+      (product) => `
+        <article class="product-card">
+          <div class="product-media">
+            <img src="${product.image}" alt="${product.name}" />
+          </div>
+          <div class="product-body">
+            <span class="product-category">${product.category}</span>
+            <h3>${product.name}</h3>
+            <p>${product.description}</p>
+            <div class="spec-list">
+              ${product.specs.map((spec) => `<span>${spec}</span>`).join("")}
+            </div>
+          </div>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+categoryFilter?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-category]");
+  if (!button) return;
+  activeCategory = button.dataset.category;
+  renderFilters();
+  renderProducts();
+});
+
+function renderSolutions() {
+  solutionGrid.innerHTML = solutions
+    .map(
+      (solution) => `
+        <article class="solution-card">
+          <h3>${solution.title}</h3>
+          <p>${solution.description}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderDownloads() {
+  const brochureDownloads = downloads.filter((download) => download.type === "Catalog / Brochure");
+  downloadList.innerHTML = brochureDownloads
+    .map(
+      (download) => `
+        <article class="download-card">
+          <div>
+            <span class="download-type">${download.type}</span>
+            <h3>${download.title}</h3>
+            <p>${download.description}</p>
+          </div>
+          <a href="${download.url}" download>Download</a>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderFactoryGallery() {
+  if (!factoryMedia.length) return;
+  factoryGallery.innerHTML = factoryMedia
+    .map((item) => {
+      const media =
+        item.type === "video"
+          ? `<video src="${item.src}" controls muted playsinline preload="metadata"></video>`
+          : `<img src="${item.src}" alt="${item.title}" data-fit="${item.fit || "cover"}" style="object-position: ${item.position || "center"}" />`;
+
+      return `
+        <article class="factory-card">
+          <div class="factory-media">${media}</div>
+          <div class="factory-caption">
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+const translations = {
+  en: {
+    navHome: "Home",
+    navAbout: "About Us",
+    navProducts: "Products",
+    navSolutions: "Solutions",
+    navDownloads: "Downloads",
+    navContact: "Contact",
+    heroEyebrow: "Constant Voltage Switching Power Supplies",
+    heroTitle: "Reliable LED power supply manufacturing for global projects.",
+    heroText:
+      "Guangdong Huapu Intelligent Technology Co., Ltd. builds HPMN / HPMN Power constant voltage switching power supplies for LED lighting, signage, cabinet lighting, and project-based applications.",
+    exploreProducts: "Explore Products",
+    contactSales: "Contact Sales",
+    aboutEyebrow: "About HPMN",
+    aboutTitle: "Guangdong Huapu Intelligent Technology Co., Ltd.",
+    aboutText1:
+      "HPMN Power specializes in the R&D and manufacturing of constant voltage switching power supplies for LED applications.",
+    aboutText2:
+      "Products are widely used in LED lighting, advertising signage, channel letters, outdoor lighting projects, commercial displays and interior decoration projects. We focus on product quality, reliability and long-term cooperation, providing efficient manufacturing, fast technical support and flexible customization for global distributors, OEM partners and project customers.",
+    whyEyebrow: "Why Choose HPMN",
+    whyTitle: "Built for LED power supply buyers, distributors, and OEM partners.",
+    value1Title: "LED Power Supply Specialist",
+    value1Text:
+      "Reliable constant voltage switching power supplies for LED lighting, signage, industrial and commercial applications.",
+    value2Title: "OEM & ODM Manufacturing",
+    value2Text: "Custom branding, housing, packaging and electrical specifications available for global partners.",
+    value3Title: "Global B2B Supply",
+    value3Text: "Supporting distributors, wholesalers, contractors and OEM customers worldwide.",
+    value4Title: "Quality Control",
+    value4Text: "Three-stage testing process: preliminary test, ATE integrated test, and aging test.",
+    value5Title: "Warehouse-Based Supply",
+    value5Text:
+      "Stock-based sales model with sufficient inventory capacity to support distributors, project orders and repeat purchasing needs.",
+    value6Title: "Fast Technical Support",
+    value6Text:
+      "Responsive pre-sales and after-sales communication for model selection, project requirements and OEM customization.",
+    mfgEyebrow: "Manufacturing Capability",
+    mfgTitle: "Testing, manufacturing, warehousing, and automated potting capability.",
+    mfgText:
+      "HPMN promotes modern manufacturing with ATE testing, aging cabinets, controlled production areas, automated potting equipment, and warehouse-based stock support for responsive lead times.",
+    productsEyebrow: "Product Center",
+    productsTitle: "Constant voltage switching power supplies for LED projects.",
+    productsText:
+      "Categories and product cards are generated from the current HPMN material library and can be expanded when new files are added.",
+    downloadsEyebrow: "Download Center",
+    downloadsTitle: "Product catalogs and brochures.",
+    downloadsText: "Only HPMN product manuals are listed here for overseas customers.",
+    contactEyebrow: "Contact",
+    contactTitle: "Discuss your power supply requirement with HPMN.",
+    contactText:
+      "Send your product category, required voltage/current, quantity, destination market, and application needs. The HPMN team can prepare a suitable recommendation.",
+  },
+  zh: {
+    navHome: "首页",
+    navAbout: "关于我们",
+    navProducts: "产品中心",
+    navSolutions: "应用方案",
+    navDownloads: "资料下载",
+    navContact: "联系我们",
+    heroEyebrow: "恒压开关电源制造商",
+    heroTitle: "面向全球项目的 LED 电源制造能力。",
+    heroText:
+      "广东华普智能科技有限公司生产 HPMN / HPMN Power 恒压开关电源，应用于 LED 照明、标识亮化、橱柜灯和工程项目。",
+    exploreProducts: "查看产品",
+    contactSales: "联系销售",
+    aboutEyebrow: "关于 HPMN",
+    aboutTitle: "广东华普智能科技有限公司",
+    aboutText1: "HPMN Power 是一家专业从事 LED 应用恒压开关电源研发与制造的企业。",
+    aboutText2:
+      "产品广泛应用于 LED 照明、广告标识、发光字、户外亮化工程、商业展示以及室内装饰项目。我们专注于产品质量、可靠性和长期合作，为全球经销商、OEM 合作伙伴及工程项目客户提供高效制造、快速技术支持和灵活定制服务。",
+    whyEyebrow: "为什么选择 HPMN",
+    whyTitle: "为 LED 电源采购商、经销商和 OEM 合作伙伴打造。",
+    value1Title: "LED 电源专家",
+    value1Text: "可靠的恒压开关电源，适用于 LED 照明、标识亮化、工业和商业应用。",
+    value2Title: "OEM & ODM 制造",
+    value2Text: "支持品牌定制、外壳、包装和电气规格定制，服务全球合作伙伴。",
+    value3Title: "全球 B2B 供应",
+    value3Text: "支持全球经销商、批发商、工程承包商和 OEM 客户。",
+    value4Title: "质量控制",
+    value4Text: "三道测试流程：初测、ATE 综合测试和老化测试。",
+    value5Title: "仓储式供应",
+    value5Text: "采用仓储式销售模式，具备充足库存与供货能力，支持经销商、工程订单和长期复购需求。",
+    value6Title: "快速技术支持",
+    value6Text: "针对选型、工程需求和 OEM 定制提供快速的售前售后沟通支持。",
+    mfgEyebrow: "制造能力",
+    mfgTitle: "测试、制造、仓储与自动灌胶能力。",
+    mfgText: "HPMN 配备 ATE 测试、老化柜、受控生产区域、自动灌胶设备和仓储式库存支持，提升交期响应能力。",
+    productsEyebrow: "产品中心",
+    productsTitle: "面向 LED 项目的恒压开关电源。",
+    productsText: "产品分类和产品卡片基于当前 HPMN 资料库生成，后续新增资料可继续扩展。",
+    downloadsEyebrow: "资料下载",
+    downloadsTitle: "产品目录与产品手册。",
+    downloadsText: "此处仅展示面向海外客户的 HPMN 产品手册。",
+    contactEyebrow: "联系我们",
+    contactTitle: "与 HPMN 沟通您的电源需求。",
+    contactText: "请提供产品类别、电压/电流、数量、目标市场和应用需求，HPMN 团队可为您推荐合适方案。",
+  },
+};
+
+let currentLang = "en";
+
+function applyLanguage(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.dataset.i18n;
+    element.textContent = translations[lang][key] || translations.en[key] || element.textContent;
+  });
+  if (langToggle) langToggle.textContent = lang === "zh" ? "EN" : "中文";
+}
+
+langToggle?.addEventListener("click", () => {
+  applyLanguage(currentLang === "en" ? "zh" : "en");
+});
+
+renderFilters();
+renderProducts();
+renderSolutions();
+renderDownloads();
+renderFactoryGallery();
+applyLanguage("en");
+
+</script>
+  </body>
+</html>

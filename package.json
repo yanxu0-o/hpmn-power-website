@@ -1,0 +1,10 @@
+{
+  "name": "hpmn-power-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static B2B company website for Guangdong Huapu Intelligent Technology Co., Ltd.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "organize": "node scripts/organize-assets.js"
+  }
+}

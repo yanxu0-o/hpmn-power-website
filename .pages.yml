@@ -1,0 +1,165 @@
+media:
+  input: assets/images/products
+  output: /assets/images/products
+
+content:
+  - name: site_copy
+    label: Site Copy
+    type: file
+    path: data/translations.json
+    fields:
+      - name: en
+        label: English Text
+        type: object
+        fields:
+          - { name: navHome, label: Nav - Home, type: string }
+          - { name: navAbout, label: Nav - About, type: string }
+          - { name: navProducts, label: Nav - Products, type: string }
+          - { name: navSolutions, label: Nav - Solutions, type: string }
+          - { name: navDownloads, label: Nav - Downloads, type: string }
+          - { name: navContact, label: Nav - Contact, type: string }
+          - { name: heroEyebrow, label: Hero Eyebrow, type: string }
+          - { name: heroTitle, label: Hero Title, type: string }
+          - { name: heroText, label: Hero Text, type: text }
+          - { name: exploreProducts, label: Explore Products Button, type: string }
+          - { name: contactSales, label: Contact Sales Button, type: string }
+          - { name: aboutEyebrow, label: About Eyebrow, type: string }
+          - { name: aboutTitle, label: About Title, type: string }
+          - { name: aboutText1, label: About Text 1, type: text }
+          - { name: aboutText2, label: About Text 2, type: text }
+          - { name: whyEyebrow, label: Why Choose Eyebrow, type: string }
+          - { name: whyTitle, label: Why Choose Title, type: string }
+          - { name: value1Title, label: Value 1 Title, type: string }
+          - { name: value1Text, label: Value 1 Text, type: text }
+          - { name: value2Title, label: Value 2 Title, type: string }
+          - { name: value2Text, label: Value 2 Text, type: text }
+          - { name: value3Title, label: Value 3 Title, type: string }
+          - { name: value3Text, label: Value 3 Text, type: text }
+          - { name: value4Title, label: Value 4 Title, type: string }
+          - { name: value4Text, label: Value 4 Text, type: text }
+          - { name: value5Title, label: Value 5 Title, type: string }
+          - { name: value5Text, label: Value 5 Text, type: text }
+          - { name: value6Title, label: Value 6 Title, type: string }
+          - { name: value6Text, label: Value 6 Text, type: text }
+          - { name: mfgEyebrow, label: Manufacturing Eyebrow, type: string }
+          - { name: mfgTitle, label: Manufacturing Title, type: string }
+          - { name: mfgText, label: Manufacturing Text, type: text }
+          - { name: productsEyebrow, label: Products Eyebrow, type: string }
+          - { name: productsTitle, label: Products Title, type: string }
+          - { name: productsText, label: Products Text, type: text }
+          - { name: downloadsEyebrow, label: Downloads Eyebrow, type: string }
+          - { name: downloadsTitle, label: Downloads Title, type: string }
+          - { name: downloadsText, label: Downloads Text, type: text }
+          - { name: contactEyebrow, label: Contact Eyebrow, type: string }
+          - { name: contactTitle, label: Contact Title, type: string }
+          - { name: contactText, label: Contact Text, type: text }
+      - name: zh
+        label: Chinese Text
+        type: object
+        fields:
+          - { name: navHome, label: 导航-首页, type: string }
+          - { name: navAbout, label: 导航-关于我们, type: string }
+          - { name: navProducts, label: 导航-产品中心, type: string }
+          - { name: navSolutions, label: 导航-应用方案, type: string }
+          - { name: navDownloads, label: 导航-资料下载, type: string }
+          - { name: navContact, label: 导航-联系我们, type: string }
+          - { name: heroEyebrow, label: 首页小标题, type: string }
+          - { name: heroTitle, label: 首页主标题, type: string }
+          - { name: heroText, label: 首页正文, type: text }
+          - { name: exploreProducts, label: 查看产品按钮, type: string }
+          - { name: contactSales, label: 联系销售按钮, type: string }
+          - { name: aboutEyebrow, label: 关于小标题, type: string }
+          - { name: aboutTitle, label: 关于标题, type: string }
+          - { name: aboutText1, label: 关于正文 1, type: text }
+          - { name: aboutText2, label: 关于正文 2, type: text }
+          - { name: whyEyebrow, label: 优势小标题, type: string }
+          - { name: whyTitle, label: 优势标题, type: string }
+          - { name: value1Title, label: 优势 1 标题, type: string }
+          - { name: value1Text, label: 优势 1 正文, type: text }
+          - { name: value2Title, label: 优势 2 标题, type: string }
+          - { name: value2Text, label: 优势 2 正文, type: text }
+          - { name: value3Title, label: 优势 3 标题, type: string }
+          - { name: value3Text, label: 优势 3 正文, type: text }
+          - { name: value4Title, label: 优势 4 标题, type: string }
+          - { name: value4Text, label: 优势 4 正文, type: text }
+          - { name: value5Title, label: 优势 5 标题, type: string }
+          - { name: value5Text, label: 优势 5 正文, type: text }
+          - { name: value6Title, label: 优势 6 标题, type: string }
+          - { name: value6Text, label: 优势 6 正文, type: text }
+          - { name: mfgEyebrow, label: 制造能力小标题, type: string }
+          - { name: mfgTitle, label: 制造能力标题, type: string }
+          - { name: mfgText, label: 制造能力正文, type: text }
+          - { name: productsEyebrow, label: 产品中心小标题, type: string }
+          - { name: productsTitle, label: 产品中心标题, type: string }
+          - { name: productsText, label: 产品中心正文, type: text }
+          - { name: downloadsEyebrow, label: 资料下载小标题, type: string }
+          - { name: downloadsTitle, label: 资料下载标题, type: string }
+          - { name: downloadsText, label: 资料下载正文, type: text }
+          - { name: contactEyebrow, label: 联系小标题, type: string }
+          - { name: contactTitle, label: 联系标题, type: string }
+          - { name: contactText, label: 联系正文, type: text }
+
+  - name: products
+    label: Products
+    type: file
+    path: data/site-data.json
+    fields:
+      - name: products
+        label: Product Cards
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: category, label: Category, type: string }
+          - { name: series, label: Series, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: image, label: Product Image, type: image }
+          - name: specs
+            label: Spec Tags
+            type: string
+            list: true
+
+  - name: downloads
+    label: Downloads
+    type: file
+    path: data/site-data.json
+    fields:
+      - name: downloads
+        label: Download Cards
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: type, label: Type, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: url, label: File URL, type: string }
+
+  - name: solutions
+    label: Solutions
+    type: file
+    path: data/site-data.json
+    fields:
+      - name: solutions
+        label: Solution Cards
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+
+  - name: factory_media
+    label: Factory Media
+    type: file
+    path: data/site-data.json
+    fields:
+      - name: factoryMedia
+        label: Factory Media
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: src, label: Media Path, type: string }
+          - { name: type, label: Type, type: string }
+          - { name: position, label: Image Position, type: string, required: false }
+          - { name: fit, label: Object Fit, type: string, required: false }

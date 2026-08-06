@@ -1,0 +1,480 @@
+export const inventory = {
+  "sourceFolder": "HPMN-Website 2",
+  "images": 2884,
+  "pdfs": 60,
+  "officeFiles": 183,
+  "productSeries": 28
+};
+
+export const products = [
+  {
+    "name": "AS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "AS",
+    "description": "Industrial enclosed power supply series for LED lighting and control equipment.",
+    "image": "./assets/images/products/as-1.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "BS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "BS",
+    "description": "Compact switching power supplies for commercial and industrial devices.",
+    "image": "./assets/images/products/bs-1.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "CHB Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHB",
+    "description": "Compact LED power driver series for cabinet and commercial lighting.",
+    "image": "./assets/images/products/chb-chb-100w.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "CHC Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHC",
+    "description": "Cabinet LED power supply series with multiple wattage options.",
+    "image": "./assets/images/products/chc-100w.png",
+    "specs": [
+      "9 material files"
+    ]
+  },
+  {
+    "name": "CHD Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHD",
+    "description": "Small-size LED driver series for space-limited lighting projects.",
+    "image": "./assets/images/products/chd-img_9161.jpg.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "CHG Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHG",
+    "description": "Cabinet lighting driver series for low-profile applications.",
+    "image": "./assets/images/products/chg-chg-100w-12v.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "CHP Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHP",
+    "description": "Slim LED power supply series for cabinet and furniture lighting systems.",
+    "image": "./assets/images/products/chp-chp-100w.jpg",
+    "specs": [
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "14 material files"
+    ]
+  },
+  {
+    "name": "CHP-B Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CHP-B",
+    "description": "B-version slim cabinet power supply series for compact installations.",
+    "image": "./assets/images/products/chp-b-chp-06b-12.jpg",
+    "specs": [
+      "5 material files"
+    ]
+  },
+  {
+    "name": "CS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "CS",
+    "description": "Stable AC/DC power supply series covering mainstream 12V and 24V outputs.",
+    "image": "./assets/images/products/cs-cs100w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "CTG Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CTG",
+    "description": "LED driver series with broad wattage coverage for 12V and 24V projects.",
+    "image": "./assets/images/products/ctg-ctg100w.jpg",
+    "specs": [
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "24V"
+    ]
+  },
+  {
+    "name": "CTN Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "CTN",
+    "description": "Thin LED power supply series for lighting and control applications.",
+    "image": "./assets/images/products/ctn-ctn100w.jpg",
+    "specs": [
+      "200W",
+      "200w",
+      "300W",
+      "300w",
+      "400W",
+      "400w",
+      "13 material files"
+    ]
+  },
+  {
+    "name": "ES Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "ES",
+    "description": "Economical enclosed switching power supplies for standard industrial loads.",
+    "image": "./assets/images/products/es-150w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "8 material files"
+    ]
+  },
+  {
+    "name": "FBI Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "FBI",
+    "description": "Constant voltage LED power supply series for demanding installation environments.",
+    "image": "./assets/images/products/fbi-fbi-12v100w-1-.jpg.jpg",
+    "specs": [
+      "100w",
+      "150w",
+      "200w",
+      "300w",
+      "400w",
+      "60w",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "FSA Series Power Supply",
+    "category": "Outdoor Power Supplies",
+    "series": "FSA",
+    "description": "Waterproof power supply series for outdoor, signage, and wet-location projects.",
+    "image": "./assets/images/products/fsa-fsa-100w.jpg",
+    "specs": [
+      "400W",
+      "100W",
+      "150W",
+      "200W",
+      "300W",
+      "500W",
+      "24V"
+    ]
+  },
+  {
+    "name": "FYG Series Power Supply",
+    "category": "Outdoor Power Supplies",
+    "series": "FYG",
+    "description": "Rainproof power supply series with multiple 400W model variants.",
+    "image": "./assets/images/products/fyg-fyg-12v400w-b-1.jpg",
+    "specs": [
+      "400W",
+      "100w",
+      "31 material files"
+    ]
+  },
+  {
+    "name": "HPC Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "HPC",
+    "description": "High power product line for 24V industrial power applications.",
+    "image": "./assets/images/products/hpc-img_8830.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "HPD Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "HPD",
+    "description": "High performance enclosed power supply series for industrial projects.",
+    "image": "./assets/images/products/hpd-hpd-100w.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "60W",
+      "9 material files"
+    ]
+  },
+  {
+    "name": "HPT Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "HPT",
+    "description": "24V project power supply series for LED applications.",
+    "image": "./assets/images/products/hpt-img_8963.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "LS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "LS",
+    "description": "HPMN enclosed switching power supplies for reliable constant voltage LED applications.",
+    "image": "./assets/images/products/ls-ls100w.jpg",
+    "specs": [
+      "400W",
+      "100W",
+      "200W",
+      "300W",
+      "60W",
+      "12V",
+      "30 material files"
+    ]
+  },
+  {
+    "name": "MS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "MS",
+    "description": "Industrial switching power supply series for reliable daily operation.",
+    "image": "./assets/images/products/ms-img_5412.jpg.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "300W",
+      "400W",
+      "9 material files"
+    ]
+  },
+  {
+    "name": "NS Series Power Supply",
+    "category": "Indoor Switching Power Supplies",
+    "series": "NS",
+    "description": "New-style switching power supply series for equipment and LED applications.",
+    "image": "./assets/images/products/ns-img_5277.jpg.jpg",
+    "specs": [
+      "100W",
+      "200W",
+      "400W",
+      "7 material files"
+    ]
+  },
+  {
+    "name": "PTA Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTA",
+    "description": "General power supply series with 5V, 12V, 24V, and higher power models.",
+    "image": "./assets/images/products/pta-pta1000w.jpg",
+    "specs": [
+      "1000W",
+      "100W",
+      "120W",
+      "150W",
+      "18W",
+      "200W",
+      "29 material files"
+    ]
+  },
+  {
+    "name": "PTA-B Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTA-B",
+    "description": "Economy general power supply series for cost-sensitive projects.",
+    "image": "./assets/images/industrial-power-placeholder.svg",
+    "specs": [
+      "3 material files"
+    ]
+  },
+  {
+    "name": "PTG Series Power Supply",
+    "category": "High Power / General Power Supplies",
+    "series": "PTG",
+    "description": "High-current general power supply series for project-based applications.",
+    "image": "./assets/images/products/ptg-ptg12v33a.jpg",
+    "specs": [
+      "1 material files"
+    ]
+  },
+  {
+    "name": "QS Series Power Supply",
+    "category": "Slim & Cabinet LED Drivers",
+    "series": "QS",
+    "description": "Slim strip power supply series for cabinet, display, and compact LED installations.",
+    "image": "./assets/images/products/qs-qs18-12v24v.jpg",
+    "specs": [
+      "18W",
+      "24W",
+      "5 material files"
+    ]
+  },
+  {
+    "name": "TVA Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVA",
+    "description": "Smart dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tva-200w-2.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "TVB Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVB",
+    "description": "DALI dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tvb-200w-2.jpg.jpg",
+    "specs": [
+      "0 material files"
+    ]
+  },
+  {
+    "name": "TVC Series Power Supply",
+    "category": "Dimming & Smart Control Power",
+    "series": "TVC",
+    "description": "0-10V dimming power supply materials detected in the product folder.",
+    "image": "./assets/images/products/tvc-200w-2.jpg.jpg",
+    "specs": [
+      "3 material files"
+    ]
+  }
+];
+
+export const solutions = [
+  {
+    "title": "LED Lighting & Signage",
+    "description": "Constant voltage power supplies for LED strips, illuminated signage, channel letters and display lighting."
+  },
+  {
+    "title": "Outdoor Power Projects",
+    "description": "FSA waterproof and FYG rainproof series for outdoor lighting and wet-location installation needs."
+  },
+  {
+    "title": "Cabinet & Commercial Lighting",
+    "description": "Slim QS, CH, CT, and cabinet driver series for compact lighting layouts with limited installation space."
+  },
+  {
+    "title": "OEM & Distribution Supply",
+    "description": "Custom branding, housing, packaging and warehouse-based supply for global B2B partners."
+  }
+];
+
+export const downloads = [
+  {
+    "title": "HPMN DALI User Manual",
+    "type": "Catalog / Brochure",
+    "description": "DALI dimming power supply user manual for download.",
+    "url": "./public/downloads/HPMN_DALI_User_Manual.pdf"
+  },
+  {
+    "title": "HPMN Smart Dimming Power Supply User Manual",
+    "type": "Catalog / Brochure",
+    "description": "English user manual for TVA, TVB and TVC smart dimming power supply series.",
+    "url": "./public/downloads/HPMN_Smart_Dimming_Power_Supply_User_Manual_EN.pdf"
+  },
+  {
+    "title": "2026HPMN Catalog",
+    "type": "Catalog / Brochure",
+    "description": "Catalog / Brochure from the current HPMN material folder.",
+    "url": "./public/downloads/hpmn-2026hpmn-catalog.pdf"
+  },
+  {
+    "title": "HPMN产品手册-电子版",
+    "type": "Catalog / Brochure",
+    "description": "Catalog / Brochure from the current HPMN material folder.",
+    "url": "./public/downloads/hpmn-asset.pdf"
+  }
+];
+
+export const factoryImages = [
+  "./assets/images/factory/factory-img_0499.jpg.jpg",
+  "./assets/images/factory/factory-img_0529.jpg.jpg",
+  "./assets/images/factory/factory-img_0528.jpg.jpg",
+  "./assets/images/factory/factory-img_0526.jpg.jpg",
+  "./assets/images/factory/factory-img_0527.jpg.jpg",
+  "./assets/images/factory/factory-img_0532.jpg.jpg"
+];
+
+export const factoryMedia = [
+  {
+    "title": "ATE Integrated Test System",
+    "description": "Comprehensive automatic testing equipment for output and reliability checks.",
+    "src": "./assets/images/factory/factory-ate-tester.png",
+    "type": "image"
+  },
+  {
+    "title": "Manufacturing Center",
+    "description": "HPMN manufacturing center with controlled production access.",
+    "src": "./assets/images/factory/factory-manufacturing-center.jpg",
+    "type": "image",
+    "position": "left center",
+    "fit": "cover"
+  },
+  {
+    "title": "Production Line",
+    "description": "Organized production line for constant voltage LED power supply manufacturing.",
+    "src": "./assets/images/factory/factory-img_0499.jpg.jpg",
+    "type": "image"
+  },
+  {
+    "title": "R&D Center",
+    "description": "Engineering and development area for LED power supply products.",
+    "src": "./assets/images/factory/factory-rd-center.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Aging Test Cabinets",
+    "description": "Batch aging and burn-in testing to support stable delivery quality.",
+    "src": "./assets/images/factory/factory-aging-cabinet.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Automated Test Equipment",
+    "description": "Automated equipment supports production testing and process control.",
+    "src": "./assets/images/factory/factory-img_0529.jpg.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Company Entrance",
+    "description": "Guangdong Huapu Intelligent Technology Co., Ltd. reception area.",
+    "src": "./assets/images/factory/factory-company-entrance.jpg",
+    "type": "image"
+  },
+  {
+    "title": "Automatic Potting Equipment",
+    "description": "Automated glue potting equipment for protected LED power supply production.",
+    "src": "./public/videos/factory-auto-potting-equipment.mov",
+    "type": "video"
+  },
+  {
+    "title": "Warehouse Stock",
+    "description": "Warehouse-based sales with strong stock availability and responsive lead times.",
+    "src": "./assets/images/factory/factory-warehouse-stock.jpg",
+    "type": "image"
+  }
+];

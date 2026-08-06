@@ -34,3 +34,5 @@ Current download links include:
 - `/public/downloads/hpmn-2026hpmn-catalog.pdf`
 - `/public/downloads/hpmn-asset.pdf`
 
+
+Last deployment trigger: 2026-08-06 20:09:42 UTC
